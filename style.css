@@ -13,6 +13,10 @@ body {
     border-radius: 25px;
     padding: 25px;
     border: 1px solid hsl(0, 0%, 7%);
+    max-width: 425px;
+    width: 90%;
+    margin: auto;
+    box-shadow: 10px 10px hsl(0, 0%, 7%);
 }
 
 .tag{
@@ -23,10 +27,6 @@ body {
     font-weight: bold;
 }
 
-h1 {
-    font-size: x-large;
-}
-
 #info{
     color: hsl(0, 0%, 42%);
 }
@@ -35,14 +35,27 @@ h1 {
     font-size: large;
     font-weight: bold;
     margin-bottom: 0px;
+    margin-top: 30px;
 }
 
 #whoami img{
-    width: 10%;
+    max-width: 40px;
     vertical-align: middle;
+    margin-right: 10px;
 }
 
 #illustration{
     border-radius: 10px;
     margin-bottom: 25px;
+    width: 100%;
+}
+
+#title{
+    font-size: x-large;
+    font-weight: 900;
+}
+
+#title:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
 }
